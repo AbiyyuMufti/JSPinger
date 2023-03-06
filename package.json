@@ -1,10 +1,19 @@
 {
   "name": "jspinger",
   "version": "1.0.0",
-  "description": "Simple Program to ping specified IP Address and return JSON connection status",
+  "description": "Check connection of IP addresses and publish result to MQTT",
   "main": "index.js",
+  "bin": {
+    "jspinger": "index.js"
+  },  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "pkg": {
+    "targets": [
+      "win"
+    ]
   },
   "repository": {
     "type": "git",
@@ -22,5 +31,10 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "child_process": "^1.0.2",
+    "axios": "^0.24.0"
   }
 }

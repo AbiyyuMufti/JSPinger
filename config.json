@@ -1,0 +1,17 @@
+{
+    "IpAddresses": [
+        { "Id": "STS1", "IpAddress": "10.2.20.131"},
+        { "Id": "STS2", "IpAddress": "8.8.8.8"},
+        { "Id": "STS3", "IpAddress": "192.168.0.1"}
+    ],
+
+    "MQTTConnection": {
+        "clientId": "mqtt_retriever",
+        "connectUrl": "mqtt://10.2.20.131:1883",
+        "username": "indie_nodelinx",
+        "password": "indie123",
+        "reconnectPeriod": 1000,
+        "connectionTimeout": 30000,
+        "topic": "Portek/STSConnection"
+    }
+}
