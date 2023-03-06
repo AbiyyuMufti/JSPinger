@@ -1,0 +1,26 @@
+{
+  "name": "jspinger",
+  "version": "1.0.0",
+  "description": "Simple Program to ping specified IP Address and return JSON connection status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbiyyuMufti/JSPinger.git"
+  },
+  "author": "Muhammad Abiyyu Mufti Hanif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbiyyuMufti/JSPinger/issues"
+  },
+  "homepage": "https://github.com/AbiyyuMufti/JSPinger#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
